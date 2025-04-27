@@ -1,0 +1,42 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;}
+.hero {
+  background: url('https://images.unsplash.com/photo-1581092334653-2329e3d2756a') center/cover no-repeat;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+h1 {
+position: relative;
+top: -400px;
+left: 267px;
+}
+@media (max-width: 768px) {
+  .navbar-links {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #007bff;
+      width: 100%;
+      padding: 10px;
+  }
+
+  .navbar-toggle {
+      display: block;
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+
+  .content {
+      width: 95%;
+  }
+}
