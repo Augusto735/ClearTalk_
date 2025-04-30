@@ -53,10 +53,6 @@ body {
     resize: vertical;
   }
   
-  textarea::placeholder {
-    color: #999;
-  }
-  
   .form-text {
     color: #000000;
     font-size: 0.875rem;

@@ -1,2 +1,1 @@
 # ClearTalk_
-g
